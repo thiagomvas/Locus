@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus", "Locus\Locus.csproj", "{A07504BA-D43C-433A-B72B-5ECE029C4BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.SampleApp", "Locus.SampleApp\Locus.SampleApp.csproj", "{E2002176-01E1-4514-A34B-6CFE2A51942A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07504BA-D43C-433A-B72B-5ECE029C4BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07504BA-D43C-433A-B72B-5ECE029C4BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07504BA-D43C-433A-B72B-5ECE029C4BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07504BA-D43C-433A-B72B-5ECE029C4BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

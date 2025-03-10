@@ -1,0 +1,11 @@
+{
+  "Greetings": {
+    "Hello": "Hello!",
+    "Goodbye": "Goodbye!"
+  },
+  "Messages": {
+    "Success": "Operation successful",
+    "Error": "An error occurred",
+    "NonExistant": "This key does not exist"
+  }
+}

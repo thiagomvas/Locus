@@ -1,0 +1,10 @@
+{
+  "Greetings": {
+    "Hello": "Oi!",
+    "Goodbye": "Tchau!"
+  },
+  "Messages": {
+    "Success": "Operação bem-sucedida",
+    "Error": "Ocorreu um erro"
+  }
+}
