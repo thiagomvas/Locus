@@ -46,6 +46,27 @@ public class LocaleNode
     {
         _children[key] = node;
     }
+    
+    /// <summary>
+    /// Formats the current node with the specified values.
+    /// </summary>
+    /// <param name="values">The object containing the values.</param>
+    /// <returns>The formatted node string.</returns>
+    public string Format(object values)
+    {
+        if (string.IsNullOrWhiteSpace(_value)) return string.Empty;
+
+        var result = _value;
+        var properties = values.GetType().GetProperties();
+        
+        foreach (var prop in properties)
+        {
+            var placeholder = $"{{{prop.Name}}}";
+            result = result.Replace(placeholder, prop.GetValue(values)?.ToString() ?? string.Empty);
+        }
+
+        return result;
+    }
 
     /// <summary>
     /// Returns a string that represents the current object.

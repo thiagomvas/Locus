@@ -2,7 +2,7 @@
 
 var provider = new LocalizationProvider(new LocaleConfiguration());
 
-Console.WriteLine(provider["Greetings"]["Hello"]);  
+Console.WriteLine(provider["Greetings"]["Hello"].Format(new { name = "John" }));  
 Console.WriteLine(provider["Messages"]["Error"]);   
 
 Console.WriteLine(provider["Greetings"]["Hello"]);  

@@ -1,6 +1,6 @@
 {
   "Greetings": {
-    "Hello": "¡Hola!",
+    "Hello": "¡Hola {name}!",
     "Goodbye": "¡Adiós!"
   },
   "Messages": {
