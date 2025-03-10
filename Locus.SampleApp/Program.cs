@@ -1,6 +1,6 @@
 ﻿using Locus;
 
-var provider = new LocalizationProvider();
+var provider = new LocalizationProvider(new LocaleConfiguration());
 
 Console.WriteLine(provider["Greetings"]["Hello"]);  
 Console.WriteLine(provider["Messages"]["Error"]);   
