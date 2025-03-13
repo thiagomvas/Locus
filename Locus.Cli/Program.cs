@@ -5,6 +5,6 @@ var app = CoconaApp.Create();
 
 app.AddCommands<InitCommand>();
 app.AddCommands<ValidateCommand>();
-
+app.AddCommands<SyncCommand>();
 
 app.Run();
