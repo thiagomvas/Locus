@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus", "Locus\Locus.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.SampleApp", "Locus.SampleApp\Locus.SampleApp.csproj", "{E2002176-01E1-4514-A34B-6CFE2A51942A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Cli", "Locus.Cli\Locus.Cli.csproj", "{F4D9BE0F-8882-4B69-96BD-D4EF2A4E6F3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2002176-01E1-4514-A34B-6CFE2A51942A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D9BE0F-8882-4B69-96BD-D4EF2A4E6F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D9BE0F-8882-4B69-96BD-D4EF2A4E6F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D9BE0F-8882-4B69-96BD-D4EF2A4E6F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D9BE0F-8882-4B69-96BD-D4EF2A4E6F3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
