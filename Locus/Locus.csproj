@@ -5,14 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Locus</PackageId>
-        <Version>1.0.0</Version>
+        <Version>0.1.0</Version>
         <Authors>thiagomvas</Authors>
         <Description>A simple localization library for managing translations in C# using JSON files.</Description>
         <PackageTags>localization, i18n, translation, json</PackageTags>
         <RepositoryUrl>https://github.com/thiagomvas/Locus</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/thiagomvas/Locus</PackageProjectUrl>
-        <PackageIconUrl>https://youriconurl.com/icon.png</PackageIconUrl>
     </PropertyGroup>
 
 </Project>
