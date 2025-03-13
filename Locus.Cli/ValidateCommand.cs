@@ -5,7 +5,8 @@ namespace Locus.Cli;
 
 public class ValidateCommand
 {
-    public void Validate([Option('s')] string source = "locales", [Option('l')] string @default = "en")
+    [Command(Description = "Validate the keys in all language files with the default language file.")]
+    public void Validate([Option('s', Description = "The folder containing the localization files.")] string source = "locales", [Option('l', Description = "The default language file name (without extension)")] string @default = "en")
     {
         var localeFiles = Directory.GetFiles(source, "*.json");
         

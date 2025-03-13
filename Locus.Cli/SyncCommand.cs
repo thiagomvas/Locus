@@ -5,7 +5,8 @@ namespace Locus.Cli;
 
 public class SyncCommand
 {
-    public void Sync([Option('s')] string source = "locales", [Option('l')] string @default = "en")
+    [Command(Description = "Synchronize the keys in all language files with the default language file.")]
+    public void Sync([Option('s', Description = "The folder containing the localization files.")] string source = "locales", [Option('l', Description = "The default language file name (without extension)")] string @default = "en")
     {
         var localeFiles = Directory.GetFiles(source, "*.json");
         
